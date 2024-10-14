@@ -14,7 +14,7 @@ def fibonacci_no_cache(n):
     return fibonacci_no_cache(n - 1) + fibonacci_no_cache(n - 2)
 
 
-# Виведення перших 25 чисел Фібоначчі
+
 fib_numbers_no_cache = [fibonacci_no_cache(i) for i in range(25)]
 print(fib_numbers_no_cache)
 
@@ -32,7 +32,7 @@ def fibonacci_with_custom_cache(n):
     return cache[n]
 
 
-# Виведення перших 25 чисел Фібоначчі
+
 fib_numbers_custom_cache = [fibonacci_with_custom_cache(i) for i in range(25)]
 print(fib_numbers_custom_cache)
 
@@ -44,7 +44,7 @@ def fibonacci_lru_10(n):
     return fibonacci_lru_10(n - 1) + fibonacci_lru_10(n - 2)
 
 
-# Виведення перших 25 чисел Фібоначчі
+
 fib_numbers_lru_10 = [fibonacci_lru_10(i) for i in range(25)]
 print(fib_numbers_lru_10)
 
@@ -56,6 +56,6 @@ def fibonacci_lru_16(n):
     return fibonacci_lru_16(n - 1) + fibonacci_lru_16(n - 2)
 
 
-# Виведення перших 25 чисел Фібоначчі
+
 fib_numbers_lru_16 = [fibonacci_lru_16(i) for i in range(25)]
 print(fib_numbers_lru_16)

@@ -1,0 +1,12 @@
+<materials>
+    <material>
+        <name>Steel</name>
+        <weight>500</weight>
+        <height>200</height>
+    </material>
+    <material>
+        <name>Wood</name>
+        <weight>100</weight>
+        <height>150</height>
+    </material>
+</materials>
